@@ -1,0 +1,42 @@
+{
+  "name": "Scatter",
+  "identifier": "com.atsrxl.scatter.source",
+  "subtitle": "端到端加密的跨设备剪贴板与文件收件箱",
+  "description": "Scatter Reborn iOS 客户端的 AltStore / SideStore 源。",
+  "iconURL": "https://raw.githubusercontent.com/atsrxL/scatter-altstore/main/altstore/icon.png",
+  "website": "https://github.com/atsrxL/scatter-altstore",
+  "tintColor": "#7564CF",
+  "apps": [
+    {
+      "name": "Scatter",
+      "bundleIdentifier": "to.scatter.ios",
+      "developerName": "atsrxl",
+      "subtitle": "在设备之间同步文字、链接、图片与文件",
+      "localizedDescription": "连接你自己的 Scatter 服务器，所有内容在设备上端到端加密后经服务器中转，服务器解不开内容。\n\n• 首次连接核对服务器证书指纹后才登录\n• 收件箱、归档、回收站、标签与搜索\n• 文字笔记、文件、相册、剪贴板导入\n• 分享扩展：从任意 App 分享到 Scatter\n• 其他设备离线时也能从服务器缓存取回文件\n\niOS 版全部走服务器中转，不做局域网直连。",
+      "iconURL": "https://raw.githubusercontent.com/atsrxL/scatter-altstore/main/altstore/icon.png",
+      "tintColor": "#7564CF",
+      "category": "utilities",
+      "screenshots": [],
+      "versions": [
+        {
+          "version": "0.6.0",
+          "buildVersion": "1",
+          "date": "2026-11-05",
+          "localizedDescription": "首个 iOS 版本：共用 Rust 核心，服务器中转与加密缓存，分享扩展。",
+          "downloadURL": "https://github.com/atsrxL/scatter-altstore/releases/download/v0.6.0/Scatter.ipa",
+          "size": 3879034,
+          "minOSVersion": "17.0"
+        }
+      ],
+      "appPermissions": {
+        "entitlements": [
+          "com.apple.security.application-groups"
+        ],
+        "privacy": {
+          "NSLocalNetworkUsageDescription": "连接你的 Scatter 服务器以同步加密的笔记和文件。"
+        }
+      }
+    }
+  ],
+  "news": []
+}
