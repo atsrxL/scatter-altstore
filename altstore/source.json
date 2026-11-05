@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.6.1",
+          "buildVersion": "2",
+          "date": "2026-11-05",
+          "localizedDescription": "修复重签后提示 App Group 不可用：优先读取 AltStore/SideStore 写入的 ALTAppGroups；证书不支持 App Group 时主 App 照常使用，仅分享扩展不可用。",
+          "downloadURL": "https://github.com/atsrxL/scatter-altstore/releases/download/v0.6.1/Scatter.ipa",
+          "size": 3879428,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.6.0",
           "buildVersion": "1",
           "date": "2026-11-05",
