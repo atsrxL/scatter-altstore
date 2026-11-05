@@ -12,12 +12,21 @@
       "bundleIdentifier": "to.scatter.ios",
       "developerName": "atsrxl",
       "subtitle": "在设备之间同步文字、链接、图片与文件",
-      "localizedDescription": "连接你自己的 Scatter 服务器，所有内容在设备上端到端加密后经服务器中转，服务器解不开内容。\n\n• 首次连接核对服务器证书指纹后才登录\n• 收件箱、归档、回收站、标签与搜索\n• 文字笔记、文件、相册、剪贴板导入\n• 分享扩展：从任意 App 分享到 Scatter\n• 其他设备离线时也能从服务器缓存取回文件\n\niOS 版全部走服务器中转，不做局域网直连。",
+      "localizedDescription": "连接你自己的 Scatter 服务器，所有内容在设备上端到端加密后经服务器中转，服务器解不开内容。\n\n• 填写内外网地址与账号，测试连接自动核验服务器身份后登录\n• 登录后只读显示账号与服务器，不同账号使用独立资料库\n• 收件箱、归档、回收站、标签与搜索\n• 文字笔记、文件、相册、剪贴板导入\n• 分享扩展：从任意 App 分享到 Scatter\n• 其他设备离线时也能从服务器缓存取回文件\n\niOS 版全部走服务器中转，不做局域网直连。",
       "iconURL": "https://raw.githubusercontent.com/atsrxL/scatter-altstore/main/altstore/icon.png",
       "tintColor": "#7564CF",
       "category": "utilities",
       "screenshots": [],
       "versions": [
+        {
+          "version": "0.8.0",
+          "buildVersion": "7",
+          "date": "2026-11-05",
+          "localizedDescription": "统一内网/外网地址与账号完整登录界面；测试连接自动固定服务器身份，登录后只读显示绑定信息，切换账号保留原资料库。",
+          "downloadURL": "https://github.com/atsrxL/scatter-altstore/releases/download/v0.8.0/Scatter.ipa",
+          "size": 3967275,
+          "minOSVersion": "17.0"
+        },
         {
           "version": "0.7.4",
           "buildVersion": "6",
