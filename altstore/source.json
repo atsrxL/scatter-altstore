@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.7.3",
+          "buildVersion": "5",
+          "date": "2026-11-05",
+          "localizedDescription": "按日期折叠剪贴板；显示连接设备和传输速度；点按复制文本、缩放图片或打开文件。",
+          "downloadURL": "https://github.com/atsrxL/scatter-altstore/releases/download/v0.7.3/Scatter.ipa",
+          "size": 3821056,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.7.1",
           "buildVersion": "4",
           "date": "2026-11-05",
