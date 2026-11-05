@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.7.0",
+          "buildVersion": "3",
+          "date": "2026-11-05",
+          "localizedDescription": "移除旧协议兼容；轻点文本直接复制，精简默认分组。",
+          "downloadURL": "https://github.com/atsrxL/scatter-altstore/releases/download/v0.7.0/Scatter.ipa",
+          "size": 3824180,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.6.1",
           "buildVersion": "2",
           "date": "2026-11-05",
