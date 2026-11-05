@@ -19,6 +19,15 @@
       "screenshots": [],
       "versions": [
         {
+          "version": "0.7.1",
+          "buildVersion": "4",
+          "date": "2026-11-05",
+          "localizedDescription": "新增进入应用时自动读取剪贴板开关，以及前台收到其他设备文本剪贴板时的通知。",
+          "downloadURL": "https://github.com/atsrxL/scatter-altstore/releases/download/v0.7.1/Scatter.ipa",
+          "size": 3754660,
+          "minOSVersion": "17.0"
+        },
+        {
           "version": "0.7.0",
           "buildVersion": "3",
           "date": "2026-11-05",
